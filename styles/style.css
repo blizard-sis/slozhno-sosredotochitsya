@@ -1,5 +1,118 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url("../images/cover-image.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 768px;
+  padding: 20px 0px;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--accent-color);
+}
+
+.decorated-zone::before {
+  bottom: 20px;
+  left: 20px;
+  border-top: none;
+  border-right: none;
+}
+
+.decorated-zone::after {
+  top: 20px;
+  right: 20px;
+  border-bottom: none;
+  border-left: none;
+}
+
+.big_text {
+  font-weight: 700;
+  font-size: 157px;
+}
+
+.header__theme-menu {
+  align-self: center;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__theme-menu-button {
+  border: none;
+  padding: 0px 13px;
+  color: var(--focus-color);
+  background-color: transparent;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--focus-color);
+}
+
+.header__theme-menu-button:focus {
+  border-bottom: 1px solid var(--focus-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--focus-color);
+  text-decoration: none;
+}
+
+.header__title {
+  color: var(--focus-color);
+  text-align: start;
+  text-shadow: 4px 4px 0px var(--accent-color);
+}
+
+.header__subtitle {
+  align-self: flex-end;
+  width: 50%;
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer__text {
+  color: var(--focus-color);
+  text-shadow: 2px 2px 0px var(--accent-color);
+}
+
+@media (width <= 768px) {
+  @media (orientation: landscape) {
+    .header {
+      justify-content: space-evenly;
+      height: 1024px;
+    }
+    .header__theme-menu {
+      align-self: flex-end;
+      padding-inline-end: 20px;
+    }
+    .header__theme-menu-list {
+      flex-direction: column;
+    }
+    .big_text {
+      font-size: 120px;
+    }
+  }
 }
