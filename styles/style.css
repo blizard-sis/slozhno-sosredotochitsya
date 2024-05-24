@@ -76,7 +76,7 @@ header {
 
 .header__title {
   color: var(--focus-color);
-  text-align: start;
+  align-self: end;
   text-shadow: 4px 4px 0px var(--accent-color);
 }
 
