@@ -143,6 +143,7 @@ header {
 .what {
   display: flex;
   flex-direction: column;
+  gap:20px;
 }
 
 .grid_h {
@@ -152,6 +153,12 @@ header {
 .how {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .image_grid {
@@ -199,6 +206,7 @@ header {
 .footer__text {
   color: var(--focus-color);
   text-shadow: 2px 2px 0px var(--accent-color);
+  align-self:center;
 }
 
 @media (width <= 768px) {
