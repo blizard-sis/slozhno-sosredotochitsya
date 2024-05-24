@@ -89,12 +89,13 @@ header {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 .why {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 20px
 }
 
 .articles__column{
@@ -113,6 +114,11 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .not_colored_h2 {
@@ -137,7 +143,6 @@ header {
 .what {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .grid_h {
