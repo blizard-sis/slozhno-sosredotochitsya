@@ -47,11 +47,13 @@ header {
 .header__theme-menu {
   align-self: start;
   justify-self: center;
+  padding-block-start: 20px;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .header__theme-menu-button {
