@@ -1,6 +1,6 @@
 .page.theme_dark {
   background-image: url("../images/cover-image-dark.png");
-  --focus-color: #DB00FF;
+  --focus-color: #db00ff;
   --accent-text-color: #000028;
   background-color: #000028;
 }

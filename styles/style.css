@@ -9,7 +9,6 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   height: 768px;
-  padding: 20px 0px;
 }
 
 .decorated-zone {
@@ -42,6 +41,7 @@ header {
 .big_text {
   font-weight: 700;
   font-size: 157px;
+  line-height: 129.53px;  
 }
 
 .header__theme-menu {
@@ -86,12 +86,15 @@ header {
   margin-inline-end: 20px;
   width: 50%;
 }
-
+.header__subtitle p {
+  font-size: 18px;
+  line-height: 23.4px;
+}
 .content {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
 .why {
@@ -145,7 +148,7 @@ header {
 .what {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
 }
 
 .grid_h {
@@ -202,13 +205,12 @@ header {
   flex-direction: row;
   justify-content: center;
   height: 768px;
-  padding: 20px;
 }
 
 .footer__text {
   color: var(--focus-color);
   text-shadow: 2px 2px 0px var(--accent-color);
-  align-self:center;
+  align-self: center;
 }
 
 @media (width <= 768px) {
