@@ -85,9 +85,28 @@ header {
   width: 50%;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 40px 20px;
+}
+
 .why {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+.articles__column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.articles__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .article {
@@ -116,6 +135,18 @@ header {
 }
 
 .what {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grid_h {
+  width: calc((100% - 40px)/3);
+}
+
+.how {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .footer {
