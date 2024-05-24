@@ -1,5 +1,5 @@
 .page.theme_light {
   background-image: url("../images/cover-image-light.png");
-  --accent-color: #353430;
+  --accent-text-color: #353430;
   --focus-color: #FFC2E6;
 }

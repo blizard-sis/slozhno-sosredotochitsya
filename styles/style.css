@@ -6,9 +6,8 @@
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   height: 768px;
   padding: 20px 0px;
 }
@@ -46,7 +45,8 @@ header {
 }
 
 .header__theme-menu {
-  align-self: center;
+  align-self: start;
+  justify-self: center;
 }
 
 .header__theme-menu-list {
@@ -81,7 +81,9 @@ header {
 }
 
 .header__subtitle {
-  align-self: flex-end;
+  align-self: center;
+  justify-self: end;
+  margin-inline-end: 20px;
   width: 50%;
 }
 
