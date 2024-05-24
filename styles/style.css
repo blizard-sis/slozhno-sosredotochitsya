@@ -83,9 +83,41 @@ header {
 .header__subtitle {
   align-self: flex-end;
   width: 50%;
+}
+
+.why {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.not_colored_h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.colored_h3 {
+  font-size: 18px;
+  font-weight: 700;
   color: var(--accent-text-color);
   background-color: var(--accent-color);
 }
+.colored_h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+
+.what {
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -115,7 +147,7 @@ header {
     .big_text {
       font-size: 120px;
     }
-    .footer{
+    .footer {
       height: 1024px;
     }
   }
