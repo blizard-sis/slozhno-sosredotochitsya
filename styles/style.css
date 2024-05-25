@@ -8,7 +8,7 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   height: 768px;
-  padding-inline-end: 20px;
+  padding: 20px;
 }
 
 .decorated-zone {
@@ -41,13 +41,12 @@ header {
 .big_text {
   font-weight: 700;
   font-size: 157px;
-  line-height: 129.53px;  
+  line-height: 129.53px;
 }
 
 .header__theme-menu {
   align-self: start;
   justify-self: center;
-  padding-block-start: 20px;
 }
 
 .header__theme-menu-list {
@@ -80,6 +79,7 @@ header {
   color: var(--focus-color);
   align-self: center;
   text-shadow: 4px 4px 0px var(--accent-color);
+  margin-inline-start: -20px;
 }
 
 .header__subtitle {
