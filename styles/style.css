@@ -234,7 +234,6 @@ header {
 }
 
 @media (width <= 768px) {
-  @media (orientation: landscape) {
     .header {
       justify-content: space-evenly;
       height: 1024px;
@@ -256,5 +255,4 @@ header {
     .footer {
       height: 1024px;
     }
-  }
 }
