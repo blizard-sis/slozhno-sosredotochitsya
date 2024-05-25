@@ -8,6 +8,7 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   height: 768px;
+  padding-inline-end: 20px;
 }
 
 .decorated-zone {
@@ -84,8 +85,7 @@ header {
 .header__subtitle {
   align-self: center;
   justify-self: end;
-  margin-inline-end: 20px;
-  margin-block-end: 60px;
+  margin-block-end: 70px;
   width: 50%;
 }
 .header__subtitle p {
