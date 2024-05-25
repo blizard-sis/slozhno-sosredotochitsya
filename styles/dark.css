@@ -1,6 +1,9 @@
 .page.theme_dark {
-  background-image: url("../images/cover-image-dark.png");
+  --link-shadow-color: #ff0070;
+  --menu-color: #ff0070;
   --focus-color: #db00ff;
+  --text-color: #f1b2ce;
   --accent-text-color: #000028;
   background-color: #000028;
+  background-image: url("../images/cover-image-dark.png");
 }

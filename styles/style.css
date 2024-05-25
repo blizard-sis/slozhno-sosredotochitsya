@@ -1,5 +1,6 @@
 .page {
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -41,7 +42,7 @@ header {
 .big_text {
   font-weight: 700;
   font-size: 157px;
-  line-height: 129.53px;
+  line-height: 82.5%;
 }
 
 .header__theme-menu {
@@ -57,21 +58,23 @@ header {
 
 .header__theme-menu-button {
   border: none;
+  width: 70px;
+  height: 26px;
   padding: 0px 13px;
-  color: var(--focus-color);
+  color: var(--menu-color);
   background-color: transparent;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--focus-color);
+  border: 1px solid var(--menu-color);
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--focus-color);
+  border-bottom: 1px solid var(--menu-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--focus-color);
+  border: 1px solid var(--menu-color);
   text-decoration: none;
 }
 
@@ -126,7 +129,22 @@ header {
 .article p {
   font-size: 18px;
   line-height: 23.4px;
+  color: var(--text-color);
 }
+
+.article p a {
+  position: relative;
+  font-size: 18px;
+  line-height: 23.4px;
+  text-shadow: 1px 1px 0px var(--link-shadow-color);
+  text-decoration: none;
+}
+
+.article p a:hover {
+  text-decoration: underline;
+}
+.article p a:focus {
+  border: 1px solid var(--text-color);}
 
 .not_colored_h2 {
   color: var(--accent-color);
@@ -222,7 +240,8 @@ header {
       height: 1024px;
     }
     .header__theme-menu {
-      align-self: flex-end;
+      align-self: center;
+      justify-self: end;
       padding-inline-end: 20px;
     }
     .header__theme-menu-list {
@@ -230,6 +249,9 @@ header {
     }
     .big_text {
       font-size: 120px;
+    }
+    .articles__row {
+      grid-template-columns: 1fr;
     }
     .footer {
       height: 1024px;
