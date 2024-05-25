@@ -233,7 +233,7 @@ header {
   align-self: center;
 }
 
-@media (width <= 768px) {
+@media (768px <= width < 1024px) {
     .header {
       justify-content: space-evenly;
       height: 1024px;
