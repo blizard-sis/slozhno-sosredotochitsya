@@ -12,6 +12,29 @@ header {
   padding: 20px;
 }
 
+.rec {
+  font-weight: 400;
+  font-size: 18px;
+  display: block;
+  color: var(--background-second-color);
+  text-transform: uppercase;
+  position: absolute;
+  right: 27px;
+  top: 22px;
+  color: var(--accent-color);
+}
+
+.rec::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  margin-left: 9px;
+  filter: blur(2px);
+}
+
 .decorated-zone {
   position: relative;
 }
@@ -246,77 +269,109 @@ header {
     justify-content: space-evenly;
     height: 1024px;
   }
+
   .header__theme-menu {
     justify-self: end;
     align-self: center;
     padding-inline-end: 20px;
   }
+
   .header__theme-menu-list {
     flex-direction: column;
   }
+
   .big_text {
     font-size: 120px;
   }
+
+  .header__subtitle {
+    margin-block-end: 80px;
+  }
+
   .articles__row {
     grid-template-columns: 1fr;
   }
+
   .footer {
     height: 1024px;
   }
 }
+
 @media (width < 768px) {
   .header {
     justify-content: space-evenly;
     height: 668px;
     padding: 10px;
   }
+  .rec {
+
+    right: 17px;
+    top: 12px;
+  }
+
   .header__theme-menu {
     justify-self: end;
     align-self: center;
   }
+
   .header__theme-menu-list {
     flex-direction: column;
   }
+
   .header__title {
     margin-inline-start: 0px;
   }
+
   .big_text {
     font-size: 116px;
   }
+
   .header__subtitle {
     width: 100%;
+    margin-block-end: 40px;
   }
+
   .decorated-zone::before {
     bottom: 10px;
     left: 10px;
     border-top: none;
     border-right: none;
   }
+
   .decorated-zone::after {
     top: 10px;
     right: 10px;
     border-bottom: none;
     border-left: none;
   }
+
+  .grid_h {
+    width: 100%;
+  }
+
   .why,
   .how,
   .what {
     grid-template-columns: 1fr;
   }
+
   .content {
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 40px 10px;
   }
+
   .articles__row {
     grid-template-columns: 1fr;
   }
+
   .image__grid {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+  
   .footer {
     height: 668px;
   }
