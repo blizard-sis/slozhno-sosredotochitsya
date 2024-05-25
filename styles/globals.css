@@ -62,4 +62,7 @@ a {
     --accent-text-color: #353430;
     background-color: #fff1f7;
   }
+  .rec{
+    display: none;
+  }
 }

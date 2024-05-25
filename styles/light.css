@@ -7,3 +7,6 @@
   --accent-text-color: #353430;
   background-color: #fff1f7;
 }
+.page.theme_light .rec{
+  display: none;
+}

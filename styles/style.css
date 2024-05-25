@@ -285,7 +285,7 @@ header {
   }
 
   .header__subtitle {
-    margin-block-end: 80px;
+    margin-block-end: 100px;
   }
 
   .articles__row {
@@ -328,7 +328,7 @@ header {
 
   .header__subtitle {
     width: 100%;
-    margin-block-end: 40px;
+    margin-block-end: 20px;
   }
 
   .decorated-zone::before {
