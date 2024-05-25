@@ -85,7 +85,7 @@ header {
 .header__subtitle {
   align-self: center;
   justify-self: end;
-  margin-block-end: 70px;
+  margin-block-end: 60px;
   width: 50%;
 }
 .header__subtitle p {
