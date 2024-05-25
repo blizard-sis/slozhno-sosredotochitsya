@@ -1,5 +1,4 @@
 .page {
-  background-image: url("../images/cover-image.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -86,6 +85,7 @@ header {
   align-self: center;
   justify-self: end;
   margin-inline-end: 20px;
+  margin-block-end: 60px;
   width: 50%;
 }
 .header__subtitle p {
