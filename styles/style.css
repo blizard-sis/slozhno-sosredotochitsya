@@ -13,15 +13,14 @@ header {
 }
 
 .rec {
+  position: absolute;
+  top: 22px;
+  right: 27px;
+  display: block;
+  color: var(--accent-color);
   font-weight: 400;
   font-size: 18px;
-  display: block;
-  color: var(--background-second-color);
   text-transform: uppercase;
-  position: absolute;
-  right: 27px;
-  top: 22px;
-  color: var(--accent-color);
 }
 
 .rec::after {
@@ -29,9 +28,9 @@ header {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
   margin-left: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
   filter: blur(2px);
 }
 
@@ -304,9 +303,8 @@ header {
     padding: 10px;
   }
   .rec {
-
-    right: 17px;
     top: 12px;
+    right: 17px;
   }
 
   .header__theme-menu {
@@ -371,7 +369,7 @@ header {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .footer {
     height: 668px;
   }

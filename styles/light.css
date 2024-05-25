@@ -1,12 +1,13 @@
 .page.theme_light {
-  background-image: url("../images/cover-image-light.png");
   --link-shadow-color: #ff8dcb;
   --menu-color: #353430;
   --focus-color: #ffc2e6;
   --text-color: #353430;
   --accent-text-color: #353430;
   background-color: #fff1f7;
+  background-image: url("../images/cover-image-light.png");
 }
-.page.theme_light .rec{
+
+.page.theme_light .rec {
   display: none;
 }
