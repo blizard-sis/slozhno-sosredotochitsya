@@ -272,7 +272,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    padding-inline-end: 20px;
+    margin-block-start: 100px;
   }
 
   .header__theme-menu-list {
