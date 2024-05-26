@@ -272,7 +272,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin-block-start: 95px;
+    margin-block-start: 90px;
   }
 
   .header__theme-menu-list {
@@ -280,7 +280,7 @@
   }
 
   .header__subtitle {
-    margin-block-end: 95px;
+    margin-block-end: 105px;
   }
 
   .articles__row {
