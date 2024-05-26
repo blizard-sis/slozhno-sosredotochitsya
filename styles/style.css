@@ -5,7 +5,7 @@
   background-attachment: fixed;
 }
 
-header {
+.header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   height: 768px;
@@ -63,7 +63,7 @@ header {
 
 .big_text {
   font-weight: 700;
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
 }
 
@@ -279,10 +279,6 @@ header {
     flex-direction: column;
   }
 
-  .big_text {
-    font-size: 128px;
-  }
-
   .header__subtitle {
     margin-block-end: 100px;
   }
@@ -321,7 +317,7 @@ header {
   }
 
   .big_text {
-    font-size: 116px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .header__subtitle {
