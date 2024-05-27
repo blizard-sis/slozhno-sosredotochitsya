@@ -1,9 +1,12 @@
 .page.theme_light {
   --link-shadow-color: #ff8dcb;
   --menu-color: #353430;
+  --menu-hover-border: #35343066;
   --focus-color: #ffc2e6;
   --text-color: #353430;
-  --accent-text-color: #353430;
+  --h2-text-color: #353430;
+  --h3-text-color: #000028;
+  --h4-text-color: #353430;
   background-color: #fff1f7;
   background-image: url("../images/cover-image-light.png");
 }

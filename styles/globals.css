@@ -40,13 +40,24 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  outline: none;
+}
+
+button:focus,
+a:focus {
+  outline: none;
 }
 
 @media (prefers-color-scheme: dark) {
   .theme_auto {
+    --link-shadow-color: #ff0070;
     --menu-color: #ff0070;
+    --menu-hover-border: #ff007066;
     --focus-color: #db00ff;
     --text-color: #f1b2ce;
+    --h2-text-color: #ff0070;
+    --h3-text-color: #000028;
+    --h4-text-color: #000028;
     --accent-text-color: #000028;
     background-color: #000028;
     background-image: url("../images/cover-image-dark.png");
@@ -55,10 +66,14 @@ a {
 
 @media (prefers-color-scheme: light) {
   .theme_auto {
+    --link-shadow-color: #ff8dcb;
     --menu-color: #353430;
+    --menu-hover-border: #35343066;
     --focus-color: #ffc2e6;
     --text-color: #353430;
-    --accent-text-color: #353430;
+    --h2-text-color: #353430;
+    --h3-text-color: #000028;
+    --h4-text-color: #353430;
     background-color: #fff1f7;
     background-image: url("../images/cover-image-light.png");
   }
